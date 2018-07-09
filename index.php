@@ -287,7 +287,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://www.facebook.com/profile.php?id=100023629252280</a> Email : paball2589@gmail.com</p>
-      <p><font color="#ADFF2F">&copy;2017-2022 ลิขสิทธิ์ VPNNM.TK โดย <a href="Facebook: Tawan Saiphan"><font color="#66FF33">VPNNM-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#ADFF2F">&copy;2018-2023 ลิขสิทธิ์ VPNNM.TK โดย <a href="Facebook: Tawan Saiphan"><font color="#66FF33">VPNNM-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>

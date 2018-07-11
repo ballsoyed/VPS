@@ -241,7 +241,7 @@ transition:0.5s ease;
             </div>
       <td width="20%">
             <div align="right">
-              <input type="submit" name="Submit3" value="เข้าระบบ" onclick="window.location.href='http://$MYIP:10000'">
+              <input type="submit" name="Submit3" value="เข้าระบบ" onclick="window.location.href='http://$MYIP">
             </div>
       </tr>
     </table>

@@ -1,6 +1,7 @@
+
 <?php
     //
-    // vnStat PHP frontend (c)2006-2010 Tawan Saiphan 
+    // vnStat PHP frontend (c)2006-2010 Tawan Saiphan (paball2589@gmail.com)
     //
     // This program is free software; you can redistribute it and/or modify
     // it under the terms of the GNU General Public License as published by
@@ -151,6 +152,7 @@
     header('Content-type: text/html; charset=utf-8');
     print '<?xml version="1.0"?>';
 ?>        
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -203,11 +205,12 @@ transition:0.5s ease;
 </style>
 </head>
 <body>
+
 <div id="wrap">
   <div id="content">
   <div id="header">
-  <img src="openvpn-as.png" />
-    <br /> 
+    <img src="openvpn-as.png" />
+<br /> 
        <?php $ip = getenv("SERVER_NAME") ; Echo "IP : " . $ip; ?> <font color="#00FF00">Port 1194,443 SSH 22,143 Proxy 3128,8080<br>
        
     <table width="400" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -234,7 +237,11 @@ transition:0.5s ease;
         </form></td>
 				        <td width="20%">
             <div align="right">
-              <input type="submit" name="Submit3" value="ดาวน์โหลดไฟล์" ONCLICK="window.location.href='http://178.128.103.38:85/free.ovpn'"/>
+              <input type="submit" name="Submit3" value="ดาวน์โหลดไฟล์" ONCLICK="window.location.href='http://<?PHP echo $ip;?>/client.php'"/>
+            </div>
+      <td width="20%">
+            <div align="right">
+              <input type="submit" name="Submit3" value="เข้าระบบ" onclick="window.location.href='http://$MYIP:10000'">
             </div>
       </tr>
     </table>
@@ -279,17 +286,16 @@ transition:0.5s ease;
           <table BORDERCOLOR="#33FFFF" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                <font color="#D02090">นี้คือระบบ VPN ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่    เบอร์โทรศพท์;0641297186 <a href="https://www.facebook.com/profile.php?id=100023629252280"><font color="#FF0033">คลิ๊ก!</font></a>
+                <font color="#D02090">นี้คือระบบ VPN ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่    เบอร์โทรศพท์> 0641297186 <a href="https://www.facebook.com/profile.php?id=100023629252280"><font color="#FF0033">คลิ๊ก!</font>
               </center></td>
             </tr>
           </table>
       </center>
     </div>
     <div id="footer">
-	<p>Facebook : <a href="https://www.facebook.com/profile.php?id=100023629252280</a> Email : paball2589@gmail.com</p>
-      <p><font color="#ADFF2F">&copy;2018-2023 ลิขสิทธิ์ VPNNM.TK โดย <a href="Facebook: Tawan Saiphan"><font color="#66FF33">VPNNM-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
-
-    </div>
+	<p>Facebook : <a href="https://www.facebook.com/profile.php?id=100023629252280">Tawan Saiphan</a> Email : paball2589@gmail.com</p>
+      <p><font color="#ADFF2F">&copy;2018-2025 ลิขสิทธิ์ VPNNM.TK Server โดย <a href="Facebook: Tawan Saiphan"><font color="#66FF33">VPNNM.TKSecurity</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+</div>
   </div>
 </div>
 

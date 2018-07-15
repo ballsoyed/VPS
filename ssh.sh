@@ -1,11 +1,10 @@
 #/bin/bash
------------------------------------------------------------------------------
-read -s -p "กรุณาใส่รหัสผ่าน จากผู้ให้บริการ: " 9924
 rm ip.ip 2> /dev/null
+read -s -p "กรุณาใส่รหัสผ่าน จากผู้ให้บริการ: " 9924
 clear
 echo "Tawan Saiphan" > squidban
 squidfail=$(cat squidban)
-echo "AinzSnow" > squidcre
+echo "Ball" > squidcre
 squidcre=$(cat squidcre)
 if grep -i 2dth squidban 1>/dev/null 2>/dev/null ; then
 echo -e "\033[1;33m- - - - -> \033[01;34mสร้างเเละจัดทำโดย @"$Ball"\033[01;33m $squidcre\033[0m"

@@ -1,6 +1,5 @@
 #/bin/bash
 rm ip.ip 2> /dev/null
-read -s -p "กรุณาใส่รหัสผ่าน จากผู้ให้บริการ: " 9924
 clear
 echo "Tawan Saiphan" > squidban
 squidfail=$(cat squidban)
